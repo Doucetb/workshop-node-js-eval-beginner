@@ -1,5 +1,5 @@
 exports.run = function(input) {
-    answer=[];
+    var answer=[];
   for (i=0;i <=2; i++){
       answer[i]=input[i];
   }
