@@ -1,3 +1,9 @@
 exports.run = function(input) {
-  console.log("Exercise #2");
+    tab = [];
+    tab = input.split(',');
+    res=0;
+    for (i=0;i< tab.length;i++){
+        res+=parseInt(tab[i]);
+    }
+    return res;
 };
